@@ -63,8 +63,17 @@
 }
 /*CRIADAS POR MIM*/ 
 .produto{
-    border-right: solid 1px #6c757d;
+    border-right: solid 1px #888888;
     padding-right: 5px;   
+}
+.categoria{
+    background-color: #F5DEB3;    
+    color: #856404;
+}
+
+
+.col-colorida{
+background-color: #F5DEB3;
 }
 
 
