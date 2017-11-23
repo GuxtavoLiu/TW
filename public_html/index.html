@@ -22,14 +22,14 @@
         <!--==================================================================-->
 
 
-        <div class="container">
+        <div class="container-fluid">
 
 
             <!--========== Início topo ==========-->
-            <div class="container">
+            <div class="container-fluid fixed-top">
                 <!--INÍCIO DA NAVBAR-->
-                <nav class="navbar navbar-expand-lg navbar-light bg-light">
-                    <a class="navbar-brand" href="#" ><h3>Fernanda Liu Doces</h3></a>
+                <nav class="navbar navbar-expand-lg navbar-light" style="background: #533f03">
+                    <a class="navbar-brand" href="index.html" ><h3 id="navbartextos" >Fernanda Liu Doces</h3></a>
                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
@@ -37,10 +37,10 @@
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul class="navbar-nav mr-auto">
                             <li class="nav-item active">
-                                <a class="nav-link" href="cadastro.html" target="_blank" >Cadastro<span class="sr-only">(current)</span></a>
+                                <a class="nav-link" href="cadastro.html"  id="navbartextos" >Login | Cadastro<span class="sr-only">(current)</span></a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#atendimento">Atendimento</a>
+                                <a class="nav-link" href="#atendimento" id="navbartextos" >Atendimento</a>
                             </li>
                             <!--BOTÃO DROP-->
                             <!--                            <li class="nav-item dropdown">
@@ -58,7 +58,7 @@
                         </ul>
                         <form class="form-inline my-2 my-lg-0">
                             <input class="form-control mr-sm-2" type="search" placeholder="O que procura?" aria-label="Search">
-                            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Buscar</button>
+                            <button class="btn btn-buscar my-2 my-sm-0" type="submit">Buscar</button>
                         </form>
                     </div>
                 </nav>
@@ -66,57 +66,25 @@
                 <br/>
 
             </div>
+            <br/>
+            <br/>
+            <br/>
+
             <!--==================================================================-->
             <!--========== Início conteúdo ==========-->
             <div class="row">
                 <!--Categorias-->
-                <div class="col-2 categoria" >
-                    <h4>Escolha uma categoria</h4>
+                <div class="col-2" >
 
-
-                    <p><a href="#" class="categoria">Doces decorados</a></p>
-
-
-
-                    <p><a href="#" class="categoria">Doces tradicionais</a></p>
-
-
-                    <p><a href="#" class="categoria">Personagens</a></p>
-
-
-                    <p><a href="#" class="categoria">Festas com temas</a></p>
-
-
-
-                    <p><a href="#" class="categoria">Bolos</a></p>
-
-                    <p><a href="#" class="categoria">Categoria</a></p>
-                    <p><a href="#" class="categoria">Categoria</a></p>
-                    <p><a href="#" class="categoria">Categoria</a></p>
-                    <p><a href="#" class="categoria">Categoria</a></p>
-                    <p><a href="#" class="categoria">Categoria</a></p>
-                    <p><a href="#" class="categoria">Categoria</a></p>
-                    <p><a href="#" class="categoria">Categoria</a></p>
-                    <p><a href="#" class="categoria">Categoria</a></p>
-                    <p><a href="#" class="categoria">Categoria</a></p>
-                    <p><a href="#" class="categoria">Categoria</a></p>
-                    <p><a href="#" class="categoria">Categoria</a></p>
-                    <p><a href="#" class="categoria">Categoria</a></p>
-                    <p><a href="#" class="categoria">Categoria</a></p>
-                    <p><a href="#" class="categoria">Categoria</a></p>
-                    <p><a href="#" class="categoria">Categoria</a></p>
-                    <p><a href="#" class="categoria">Categoria</a></p>
-                    <p><a href="#" class="categoria">Categoria</a></p>
-                    <p><a href="#" class="categoria">Categoria</a></p>
-                    <p><a href="#" class="categoria">Categoria</a></p>
-                    <p><a href="#" class="categoria">Categoria</a></p>
-                    <p><a href="#" class="categoria">Categoria</a></p>
-                    <p><a href="#" class="categoria">Categoria</a></p>
-                    
-
-
-
-
+                    <ul class="list-group" >
+                        <li class="list-group-item" style="background: #533f03"><h4 style="margin: 0 0 0 0; color: white;" >Categorias</h4></li>
+                        <li class="list-group-item" style="background: #F5DEB3"><a href="#" class="categoria-itens">Doces decorados</a></li>
+                        <li class="list-group-item" style="background: #F5DEB3"><a href="#" class="categoria-itens">Doces tradicionais</a></li>
+                        <li class="list-group-item" style="background: #F5DEB3"><a href="#" class="categoria-itens">Personagenss</a></li>
+                        <li class="list-group-item" style="background: #F5DEB3"><a href="#" class="categoria-itens">Festas com temas</a></li>
+                        <li class="list-group-item" style="background: #F5DEB3"><a href="#" class="categoria-itens">Bolos</a></li>
+                        <li class="list-group-item" style="background: #F5DEB3"><a href="#" class="categoria-itens">Cupcackes</a></li>
+                    </ul>
                 </div>
                 <!--Categorias FIM-->
 
@@ -124,9 +92,11 @@
                 <div class="col" >
 
 
-
+                    <br/>
+                    <h1 style="text-align: center; color: #533f03">PRODUTOS EM DESTAQUE</h1> 
+                    <br/>
                     <div class="row">
-                        <div class="col" >
+                        <div class="col-3" >
                             <!--<h5>Coluna 1 de Produtos</h5>-->
                             <div class="produto">
                                 <a href="#">  <img src="imgs/img_docinhos1.jpg" width="200" height="150"  class="rounded mx-auto d-block">  </a>
@@ -162,7 +132,7 @@
                         </div>  
 
 
-                        <div class="col col-colorida" >                            
+                        <div class="col-3" >                            
                             <!--<h5>Coluna 2 de Produtos</h5>-->   
 
                             <div class="produto">
@@ -194,7 +164,37 @@
                         </div>  
 
 
-                        <div class="col" >
+                        <div class="col-3" >
+                            <!--<h5>Coluna 3 de Produtos</h5>-->
+                            <div class="produto">
+                                <a href="#"><img src="imgs/bolo-morango.jpg" width="200" height="150" class="rounded mx-auto d-block"> </a>
+                                <a href="#"><h4 class="text-dark">Bolo de Morango</h4> </a>
+                                <h5 class="text-primary">R$40,00/kg</h5><br/>                  
+                                <button type="button" class="btn btn-primary float-right">Comprar agora</button>
+                                <button type="button" class="btn btn-success float-right">Adicionar ao carrinho</button> <br/><br/><br/><br/>
+                            </div> 
+                            <br/>
+
+                            <div class="produto">
+                                <a href="#"><img src="imgs/cone.jpg" width="200" height="150" class="rounded mx-auto d-block"> </a>
+                                <a href="#"><h4 class="text-dark">Cone Trufado</h4> </a>
+                                <h5 class="text-primary">R$7,00/un.</h5><br/>                  
+                                <button type="button" class="btn btn-primary float-right">Comprar agora</button>
+                                <button type="button" class="btn btn-success float-right">Adicionar ao carrinho</button> <br/><br/><br/><br/>
+                            </div> 
+                            <br/>
+
+                            <div class="produto">
+                                <a href="#"><img src="imgs/cupcacke1.jpg" width="200" height="150" class="rounded mx-auto d-block"> </a>
+                                <a href="#"><h4 class="text-dark">Cupcacke </h4></a>
+                                <h5 class="text-primary">R$7,00/un.</h5><br/>                  
+                                <button type="button" class="btn btn-primary float-right">Comprar agora</button>
+                                <button type="button" class="btn btn-success float-right">Adicionar ao carrinho</button> <br/><br/><br/><br/>
+                            </div> 
+                            <br/>
+
+                        </div>  
+                        <div class="col-3" >
                             <!--<h5>Coluna 3 de Produtos</h5>-->
                             <div class="produto">
                                 <a href="#"><img src="imgs/bolo-morango.jpg" width="200" height="150" class="rounded mx-auto d-block"> </a>
