@@ -38,7 +38,7 @@
     h3 {
         orphans: 3;
         widows: 3;
-      
+
     }
     h2,
     h3 {
@@ -86,8 +86,32 @@
 
 
 .col-colorida{
-background-color: #F5DEB3;
+    background-color: #F5DEB3;
 }
+/*BOTAO COMPRAR*/
+.btn-comprar{
+    color: white;
+    background-color: #856404;
+    background-image: none;
+    border-color: #856404;
+}
+/*BOTAO COMPRAR FIM*/
+
+/*BOTAO ADICIONAR NO CARRINHO*/
+.btn-addcarrinho{
+    color: white;
+    background-color: #d39e00;
+    border-color: #856404;
+}
+.btn-addcarrinho:hover{
+    color: white;
+    background-color: #d39e00;
+    background-image: none;
+    border-color: #856404;
+    opacity: 0.7;
+}
+/*BOTAO ADICIONAR NO CARRINHO FIM*/
+
 
 /*<BOTAO BUSCAR>*/
 .btn-buscar{
