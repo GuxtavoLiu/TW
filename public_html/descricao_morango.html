@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <!--Import Icons-->-->
+        <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+        <!--Importar jQery-->
+        <script src="JS/jqery-3.2.1.js"></script>        
+        <script type="text/javascript" src="JS/jqery.js"></script>
+
+        <script src="JS/popper.js"></script>        
+        <script type="text/javascript" src="JS/popper_site.js"></script>
+        <script type="text/javascript" src="JS/bootstrap.js"></script>
+
+
+        <link rel="stylesheet" type="text/css" href="CSS/bootstrap.css"/>
+
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <title>Fernanda Liu Doces</title>
+    </head>
+    <body>
+        <!--==================================================================-->
+
+
+        <div class="container-fluid">
+
+
+            <!--========== Início topo ==========-->
+            <div class="container-fluid fixed-top">
+                <!--INÍCIO DA NAVBAR-->
+                <nav class="navbar navbar-expand-lg navbar-light" style="background: #533f03">
+                    <a class="navbar-brand" href="index.html" ><h3 id="navbartextos" >Fernanda Liu Doces</h3></a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav mr-auto">
+                            <li class="nav-item active">
+                                <a class="nav-link" href="cadastro.html"  id="navbartextos" >Login | Cadastro<span class="sr-only">(current)</span></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="index.html#atendimento" id="navbartextos" >Atendimento</a>
+                            </li>
+                            <!--BOTÃO DROP-->
+                            <!--                            <li class="nav-item dropdown">
+                                                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                                Dropdown
+                                                            </a>
+                                                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                                                <a class="dropdown-item" href="#">Action</a>
+                                                                <a class="dropdown-item" href="#">Another action</a>
+                                                                <div class="dropdown-divider"></div>
+                                                                <a class="dropdown-item" href="#">Something else here</a>
+                                                            </div>
+                                                        </li>-->
+                            <!--BOTÃO DROP FIM-->
+                        </ul>
+                        <a href="carrinho.html">
+                            <div>
+                                <label id="navbartextos">Carrinho</label>
+                                <i class="fa fa-shopping-cart fa-2x" style="color: white; margin-right: 5px;" aria-hidden="true"></i>
+                            </div>
+                        </a>
+                        <form class="form-inline my-2 my-lg-0">
+                            <input class="form-control mr-sm-2" type="search" placeholder="O que procura?" aria-label="Search">
+                            <button class="btn btn-buscar my-2 my-sm-0" type="submit">Buscar</button>
+                        </form>
+                    </div>
+                </nav>
+                <!--FIM DA NAVBAR-->
+                <br/>
+            </div>
+            <br/>
+            <br/>
+            <br/>
+
+            <div class="container">
+                <div class="row">
+                    <div class="col-4 item-photo">
+                        <img style="max-width:100%;" src="imgs/bolo-morango.jpg" width="350" height="250" />
+                    </div>
+                    <div class="col-5" style="border:0px solid gray">
+                        <!-- Datos del vendedor y titulo del producto -->
+                        <h3>Bolo de Morango</h3>    
+                        <small style="color:#337ab7">(150 unidades vendidas)</small>
+
+                        <!-- Precios -->
+                        <h6 class="title-price"><small>Preço</small></h6>
+                        <h3 style="margin-top:0px;">R$40,00/kg</h3>                                   
+
+                        <!-- Botones de compra -->
+                        <div class="section" style="padding-bottom:20px;">
+                            <button class="btn btn-success"><span style="margin-right:20px" class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span>Adicionar ao carrinho</button>
+                        </div> 
+                        <div col-2>
+                            <p>Bolo com recheio de brigadeiro e morangos com cobertura também de brigadeiro e granulados de chocolate.</p>
+                        </div>                              
+                    </div>                              
+
+                    <div class="col-xs-9">
+                        <ul class="menu-items">
+                            <h5>Alérgicos: </h5>
+                            <li>Lactose</li>
+                            <li>Sucarose</li>
+                        </ul>
+                        <div style="width:100%;border-top:1px solid silver">
+                            <p style="padding:15px;">
+                                <small>                                  
+
+                                </small>
+                            </p>
+                            
+                            <!--INICIO DO RODAPE-->
+                            <div class="row text-secondary">
+
+                                <div class="col-4">
+                                    <h4 style="color: black;" id="atendimento">Atendimento</h4>
+                                    <p>
+                                        Telefone fixo: (44) 3460-1123<br/>
+                                        Celular e Whatsapp: (44) 99113-8385<br/>
+                                        Email: gustavo_santostr@hotmail.com<br/>
+                                        Caixa postal: Rua José Lalier, 1130.<br/> Tamboara-PR.<br/>
+                                        CEP: 87760-000
+                                    </p>
+                                </div>
+
+                                <div class="col-4" >
+                                    <h4 style="color: black;">Sobre nós</h4>     
+                                    <p>Me chamo Fernanda M. Liu
+                                        e sou cozinheira, confeiteira e doceira. Realizo trabalhos
+                                        com doces para festas de aniversários e eventos em geral.
+                                    </p>
+
+                                </div>
+
+                                <div class="col-4">
+                                    <h4 style="color: black;">Formas de pagamento</h4>
+                                    <img src="imgs/badeira-visa.png" width="40" height="30" >
+                                    <img src="imgs/bandeira-elo.jpg" width="40" height="30">
+                                    <img src="imgs/bandeira-mastercard.png" width="40" height="30">
+                                    <img src="imgs/bandeira-pagseguro.png" width="40"  height="30">
+                                    <img src="imgs/bandeira-boleto.png" width="40" height="30">
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>		
+                </div>
+            </div>  
+
+
+
+
+    </body>
+</html>
+
